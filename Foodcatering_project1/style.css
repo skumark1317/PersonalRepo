@@ -1,0 +1,182 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fff8f0;
+}
+header {
+  background:green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.Homepage {
+  text-align: center;
+  padding: 20px;
+}
+.Homepage img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.menu-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.menu-card {
+  padding: 20px;
+  background: #ffe3d8;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dish {
+  margin: 10px;
+  text-align: center;
+}
+.dish img {
+  width: 200px;
+  border-radius: 10px;
+}
+form {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.footer {
+    
+  position: fixed;
+    bottom: 0px;
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+/* -------------footer----------------------- */
+footer1 
+{
+   background-color: #333;
+   color: #fff;
+   padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+   .footer-section {
+   flex: 1;
+   margin: 10px;
+   min-width: 250px;
+   margin-left: 10px;
+  }
+  .footer-section p{
+  margin-left: 100px;
+  }
+  .footer-section h4 {
+  margin-bottom: 10px;
+  color: #f4f4f4;
+   margin-left: 100px;
+  }
+.footer-section ul 
+{
+ list-style: none;
+  padding: 0;
+  margin-left: 100px;
+ }
+ .footer-section ul li {
+  margin-bottom: 8px;
+  }
+.footer-section ul li a {
+  color: #fff;
+ text-decoration: none;
+} .footer-text {
+ line-height: 1.5;
+ }
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #bbb;
+        }
+/* -----------------contact page----------------------- */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+
